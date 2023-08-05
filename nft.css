@@ -1,0 +1,135 @@
+body {
+    width: 1440px;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.main-container {
+    border-style: solid;
+    border-color: hsl(216, 50%, 16%);
+    background-color: hsl(216, 50%, 16%);
+    width: 250px;
+    height: 470px;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    font-family: 'Outfit', sans-serif;
+    box-shadow: 0px 30px 30px 30px hsl(216, 57%, 9%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image1 {
+    width: 100%;
+    border-radius: 0.8rem;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image2 {
+    position: absolute;
+    background-color: hsl(178, 100%, 50%, 50%);
+    border-radius: 0.8rem;
+    cursor: pointer;
+    padding: 101px;
+    opacity: 0%;
+    transition: 0.3s;
+}
+
+.image-container:hover .image2 {
+    opacity: 100%;
+}
+
+.title {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.title:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.text {
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+}
+
+.price {
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+    font-size: 12px;
+}
+
+#value {
+    display: flex;
+    justify-content: space-between;
+}
+
+#clock {
+    color: hsl(215, 51%, 70%);
+    font-size: 12px;
+}
+
+.clock2 {
+    height: 1.2em;
+    margin-right: .1rem;
+    vertical-align: sub;
+}
+
+.ETH {
+    height: 1.2em;
+    margin-right: .3rem;
+    vertical-align: sub;
+}
+
+.line {
+    border: 0.20px solid hsl(215, 51%, 70%);
+    opacity: 20%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#icon-avatar {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    border-style: solid;
+    border-color: white;
+    border-radius: 6rem;
+    border-width: 0.01rem;
+    width: 11%;
+    height: 11%;
+}
+
+.creator {
+    font-size: 14px;
+    color: hsl(215, 51%, 70%);
+    padding-left: 15px;
+}
+
+span {
+    color: white;
+}
+
+span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width:375px) {}
